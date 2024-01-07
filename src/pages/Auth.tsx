@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import AuthComp from "../components/AuthComp.tsx";
+import { AuthComp } from "../components/index.ts";
 
 const Auth: FC = () => {
   return (

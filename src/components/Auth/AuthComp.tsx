@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import FormComp from "../modules/components/AuthForm/FormComp.tsx";
+import {FormComp} from "../../modules/components/index.ts";
 
 const AuthComp: FC = () => {
   return (

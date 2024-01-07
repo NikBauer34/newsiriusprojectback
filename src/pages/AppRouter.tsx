@@ -1,8 +1,8 @@
 import React, {FC, useContext} from "react";
 import { Context } from "../main.tsx";
 import { Route, Routes } from "react-router-dom";
-import MainPanel from "./layouts/MainPanel.tsx";
-import { firstRouting, publicRouting, secondRouting } from "../modules/constants/Routing.ts";
+import {MainPanel} from "./layouts/index.ts";
+import { firstRouting, publicRouting, secondRouting } from "../modules/constants/index.ts";
 import {observer} from "mobx-react-lite";
 const AppRouter: FC = () => {
   const {user} = useContext(Context)
