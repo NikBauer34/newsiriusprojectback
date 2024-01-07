@@ -1,7 +1,6 @@
 import React, { FC, useContext } from 'react'
 import { useForm } from '@mantine/form';
 import { Box, Button, NativeSelect, PasswordInput, TextInput } from '@mantine/core';
-import { UserDto } from '../../api/http/IUser.ts';
 import { useLocation } from 'react-router-dom';
 import { Context } from '../../../main.tsx';
 const FormComp: FC = () => {
