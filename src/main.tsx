@@ -1,7 +1,7 @@
 import React, { createContext } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import UserStore from './modules/store/UserStore.ts'
+import {UserStore} from './modules/store/index.ts'
 import { MantineProvider } from '@mantine/core'
 import '@mantine/core/styles.css'
 interface IContext {

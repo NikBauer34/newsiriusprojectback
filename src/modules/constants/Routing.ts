@@ -1,7 +1,4 @@
-import Auth from "../../pages/Auth.tsx";
-import FirstPage1 from "../../pages/FirstPage1.tsx";
-import FirstPage2 from "../../pages/FirstPage2.tsx";
-import SecondPage1 from "../../pages/SecondPage1.tsx";
+import {Auth, FirstPage1, FirstPage2, SecondPage1} from "../../pages/index.ts";
 import IRouting from "./IRouting.ts";
 
 export const publicRouting: IRouting[] = [

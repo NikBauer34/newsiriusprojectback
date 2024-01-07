@@ -1,8 +1,8 @@
 import axios, { AxiosResponse } from "axios";
-import { IRole, UserDto } from "../api/http/IUser";
+import { IRole, UserDto } from "../api/index.ts";
 import {makeAutoObservable} from 'mobx'
-import {AuthResponse} from "../api/http/AuthResponse.ts";
-import AuthService from "../api/services/AuthService.ts";
+import {AuthResponse} from "../api/index.ts";
+import {AuthService} from "../api/index.ts";
 import { API_URL } from "../constants/index.ts";
 export default class UserStore {
   user = {} as UserDto;
