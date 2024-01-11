@@ -1,14 +1,14 @@
-import { Box } from "@mantine/core";
-import React, { FC } from "react";
+import React from "react";
+import { FC } from "react"
+import { Login } from "../components/index";
 
-const Login: FC = () => {
-    return(
-        <Box maw={340} mx= 'auto'>
-            <form>
 
-            </form>
-        </Box>
-    );
-};
+const LoginPage: FC = () => {
+    return (
+        <div>
+            <Login />
+        </div>
+    )
+}
 
-export default Login;
+export default LoginPage;
