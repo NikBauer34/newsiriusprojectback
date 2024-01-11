@@ -1,0 +1,10 @@
+.input_container {
+    width: 285px;
+    height: 30px;
+    position: relative;
+}
+.input {
+    border: 0;
+    outline: 0;
+    border-bottom: cornflowerblue 2px solid;
+}
